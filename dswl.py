@@ -13,7 +13,7 @@ def main():
 ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
 """
     print(banner)
-    parser = argparse.ArgumentParser(description='用友U8SQL注入漏洞检测')
+    parser = argparse.ArgumentParser(description='东胜物流')
     parser.add_argument('-u','--url', type=str, help='输入要检测URL')
     parser.add_argument('-f','--file', type=str, help='输入要批量检测的文本')
     args = parser.parse_args()
